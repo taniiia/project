@@ -1,0 +1,151 @@
+body
+{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1
+{
+  /*width: 10%;*/
+  /*margin: 0;*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;/*16px== 100%--> 90px==562.5% */
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a
+{
+  color: #11999E;
+}
+
+.top-container
+{
+  background-color: #CDFCF6;
+  position: relative;
+  height: 750px;
+}
+
+.middle-container
+{
+
+  
+}
+
+.bottom-container
+{
+
+}
+
+span
+{
+  text-decoration: underline;
+}
+
+.top-cloud
+{
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+
+.middle-cloud
+{
+  position: absolute;
+  /*to position this relative to the parent container that parent must have position property set to relative; here we make sure that the topcontainer is the one that is the parent of the bottom-cloud;*/
+  left: 300px;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  left: 900px;
+  top: 400px;
+}
+
+.codeimg
+{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.quantimg
+{
+  width: 300px;
+  height: 200px;
+  float:right;
+  margin-left: 30px;
+}
+
+.mountain-img
+{
+  position: absolute;
+  bottom:0px;
+  left: 380px;
+  height:400px;
+  text-align: center;
+}
+
+.skill-row
+{
+  width: 50%;
+  /*margin-left: 320px;*/
+  /*margin: auto; but the div s too close to the div above and below, we can add a margin on the top  and the bottom*/
+  margin: 100px auto 100px auto;
+}
+
+.skills
+{
+  text-align: center;
+}
+
+.skill-title
+{
+  text-align: left;
+}
+
+.skill-desc
+{
+  text-align: left;
+  line-height: 2;
+  /*clear: left;*/
+}
+
+/*.skill-desc-2
+{
+  clear: right;
+}*/
+
+.skill-row-1
+{
+  margin-bottom: 50px;
+}
+
+a{
+  color:#11999E;
+  text-decoration: none;
+  padding: 0px 30px 0px 30px;
+}
+
+a:hover
+{
+  color: #CDFCF6;
+}
